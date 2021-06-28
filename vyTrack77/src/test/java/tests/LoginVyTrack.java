@@ -34,7 +34,6 @@ public class LoginVyTrack {
         BrowserUtils.sleep(2);
 
         homePage.fleetBtn.click();
-        BrowserUtils.sleep(2);
         homePage.vehicle.click();
 
         car_grid.exportGridBtn.click();
@@ -49,6 +48,8 @@ public class LoginVyTrack {
     public void tearDown(){
         Driver.closeDriver();
     }
+
+
 
 }
 
